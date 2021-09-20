@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sticky notes</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body class="wrapper">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="project.js"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sticky Notes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+
+
+
+
+                </ul>
+                 
+            </div>
+        </div>
+
+    </nav>
+    <div class="container my-3">
+        <h1>welcome to notes</h1>
+        <div class="cardc">
+
+            <div class="card-body">
+                <h5 class="card-title">Add a note</h5>
+                <br>
+
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="addtxt"
+                        style="height: 100px"></textarea>
+
+                </div>
+                <button class="btn btn-primary" id="addbtn">Add note</button>
+                <button class="btn btn-primary"  id="clrbtn">Clear</button>
+                
+            </div>
+
+        </div>
+        <h2>your notes</h2>
+        <hr>
+        <div id="notes" class="row container-fluid">
+            
+
+            <!--  ***format created for cards then copy to javascript and called there*** 
+                div class=" noteCard my-2 mx-2 card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Note</h5>
+                    <p class="card-text"></p>
+                    <button href="#" class="btn btn-primary">Delete</button>
+                </div>
+            </div!-->
+ 
+
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
