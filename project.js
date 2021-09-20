@@ -35,7 +35,7 @@ window.onload = function () {
             notesobj = [];                                         // if localstorage is empty then notesobj array empty  
         }
         else {
-            notesobj = JSON.parse(notes);                         // parse
+            notesobj = JSON.parse(notes);                         // parse..
         }
 
         let html = "";
