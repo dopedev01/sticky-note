@@ -1,0 +1,30 @@
+.btn {
+    margin-top: 2%;
+}
+
+#clrbtn{
+   margin-left: 02%; 
+}
+
+.form-control{
+    font-style: bold;
+}
+
+
+
+#card{
+ border-radius: 18px;
+ box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  
+ font-size: 25px;
+
+}
+.form-floating{
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    
+    
+    font-size: 15px;
+   
+   }
+   
